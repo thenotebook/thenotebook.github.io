@@ -1,6 +1,1 @@
-var message;
-message = document.getElementbyId(input);
-function pop(messages)
- {
-    alert(message);
- }
+document.getElementById("clickMe").onclick = function () { alert('hello!'); };
